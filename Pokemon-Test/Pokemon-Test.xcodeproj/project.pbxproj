@@ -11,6 +11,7 @@
 		EF2BFCAB2322B84600CA9A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2BFCA92322B84600CA9A15 /* Main.storyboard */; };
 		EF2BFCAD2322B84700CA9A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2BFCAC2322B84700CA9A15 /* Assets.xcassets */; };
 		EF2BFCB02322B84700CA9A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2BFCAE2322B84700CA9A15 /* LaunchScreen.storyboard */; };
+		EF2BFCBD2322B8DE00CA9A15 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BFCBC2322B8DE00CA9A15 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EF2BFCAC2322B84700CA9A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF2BFCAF2322B84700CA9A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2BFCB12322B84700CA9A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2BFCBC2322B8DE00CA9A15 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		EF2BFCBB2322B8A300CA9A15 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EF2BFCBC2322B8DE00CA9A15 /* Pokemon.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF2BFCA62322B84600CA9A15 /* AppDelegate.swift in Sources */,
+				EF2BFCBD2322B8DE00CA9A15 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
